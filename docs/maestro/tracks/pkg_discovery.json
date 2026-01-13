@@ -1,0 +1,21 @@
+{
+  "track_id": "pkg_discovery",
+  "name": "Package Discovery",
+  "status": "planned",
+  "completion": 0,
+  "description": [
+    "Recognize Makefile, VCPP, and Xcode packages as a unified package and support internal builds"
+  ],
+  "phases": [
+    "pkgd-discovery",
+    "pkgd-makefile",
+    "pkgd-msbuild",
+    "pkgd-integration"
+  ],
+  "priority": 0,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:00.957067",
+  "tags": [],
+  "owner": null,
+  "is_top_priority": false
+}

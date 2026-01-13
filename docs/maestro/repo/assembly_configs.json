@@ -1,0 +1,11 @@
+{
+  "configurations": {
+    "default": {
+      "roots": [
+        "src"
+      ],
+      "created_at": "43075831.63"
+    }
+  },
+  "selected": "default"
+}

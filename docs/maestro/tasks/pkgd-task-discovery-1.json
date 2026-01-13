@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-discovery-1",
+  "name": "Implement Xcode project detection and scanning",
+  "status": "done",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-discovery",
+  "completed": true,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:29.377495",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}

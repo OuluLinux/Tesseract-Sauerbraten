@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-makefile-2",
+  "name": "Implement GccBuilder.build_package for internal compilation",
+  "status": "done",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-makefile",
+  "completed": true,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:56.956713",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}

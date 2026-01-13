@@ -1,0 +1,23 @@
+{
+  "phase_id": "pkgd-makefile",
+  "name": "Internal Makefile Build System",
+  "status": "planned",
+  "completion": 0,
+  "description": [
+    "Parse Makefile targets into internal build steps and enable Linux package build"
+  ],
+  "tasks": [
+    "pkgd-task-makefile-1",
+    "pkgd-task-makefile-2",
+    "pkgd-task-makefile-3",
+    "pkgd-task-makefile-4"
+  ],
+  "track_id": "pkg_discovery",
+  "priority": "P2",
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:12.904461",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "order": null
+}

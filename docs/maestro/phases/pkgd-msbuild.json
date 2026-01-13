@@ -1,0 +1,22 @@
+{
+  "phase_id": "pkgd-msbuild",
+  "name": "MSBuild (VCPP) Dry-run Support",
+  "status": "planned",
+  "completion": 0,
+  "description": [
+    "Model VCPP packages and dry-run build steps without executing MSBuild"
+  ],
+  "tasks": [
+    "pkgd-task-msbuild-1",
+    "pkgd-task-msbuild-2",
+    "pkgd-task-msbuild-3"
+  ],
+  "track_id": "pkg_discovery",
+  "priority": "P2",
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:17.900116",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "order": null
+}

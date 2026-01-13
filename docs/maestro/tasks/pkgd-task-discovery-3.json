@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-discovery-3",
+  "name": "Refine deduplicate_packages to merge Makefile, VCPP, and Xcode projects",
+  "status": "done",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-discovery",
+  "completed": true,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:39.862957",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-makefile-4",
+  "name": "Verify internal build of Linux package",
+  "status": "planned",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-makefile",
+  "completed": false,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:21:07.833727",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}

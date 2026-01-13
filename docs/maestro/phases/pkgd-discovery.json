@@ -1,0 +1,23 @@
+{
+  "phase_id": "pkgd-discovery",
+  "name": "Enhanced Repository Discovery & Recognition",
+  "status": "planned",
+  "completion": 0,
+  "description": [
+    "Identify Makefile, VCPP, and Xcode projects and normalize package discovery"
+  ],
+  "tasks": [
+    "pkgd-task-discovery-1",
+    "pkgd-task-discovery-2",
+    "pkgd-task-discovery-3",
+    "pkgd-task-discovery-4"
+  ],
+  "track_id": "pkg_discovery",
+  "priority": "P2",
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:06.735934",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "order": null
+}

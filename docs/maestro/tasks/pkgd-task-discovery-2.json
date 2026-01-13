@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-discovery-2",
+  "name": "Upgrade scan_makefile_packages to functional scanner",
+  "status": "done",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-discovery",
+  "completed": true,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:34.400582",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}

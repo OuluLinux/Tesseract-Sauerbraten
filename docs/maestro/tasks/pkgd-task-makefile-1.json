@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-makefile-1",
+  "name": "Implement Makefile parser for internal analysis",
+  "status": "done",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-makefile",
+  "completed": true,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:50.040914",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}

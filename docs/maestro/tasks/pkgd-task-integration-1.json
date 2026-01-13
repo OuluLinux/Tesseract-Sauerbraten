@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-integration-1",
+  "name": "Fix errors identified during Tesseract-Sauerbraten build",
+  "status": "planned",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-integration",
+  "completed": false,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:21:31.313650",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}

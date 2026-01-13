@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-discovery-4",
+  "name": "Verify discovery in Tesseract-Sauerbraten",
+  "status": "planned",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-discovery",
+  "completed": false,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:20:44.854622",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}

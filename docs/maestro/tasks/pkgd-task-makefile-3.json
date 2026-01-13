@@ -1,0 +1,17 @@
+{
+  "task_id": "pkgd-task-makefile-3",
+  "name": "Add MakefileBuilder to builder selector",
+  "status": "done",
+  "priority": "P2",
+  "estimated_hours": null,
+  "description": [],
+  "phase_id": "pkgd-makefile",
+  "completed": true,
+  "created_at": null,
+  "updated_at": "2026-01-12T17:21:02.796265",
+  "tags": [],
+  "owner": null,
+  "dependencies": [],
+  "subtasks": [],
+  "details": {}
+}
