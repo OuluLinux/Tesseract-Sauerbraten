@@ -392,6 +392,7 @@ bool fileexists(const char *path, const char *mode)
 #else
     if(access(path[0] ? path : ".", mode[0]=='w' || mode[0]=='a' ? W_OK : (mode[0]=='d' ? X_OK : R_OK)) == -1) exists = false;
 #endif
+    if(verbose > 1) logoutf("Verbose: fileexists(%s) = %s", path, exists ? "true" : "false");
     return exists;
 }
 
@@ -480,7 +481,11 @@ const char *findfile(const char *filename, const char *mode)
     if(homedir[0])
     {
         formatstring(s, "%s%s", homedir, filename);
-        if(fileexists(s, mode)) return s;
+        if(fileexists(s, mode)) 
+        {
+            if(verbose > 1) logoutf("Verbose: found %s in home directory", filename);
+            return s;
+        }
         if(mode[0]=='w' || mode[0]=='a')
         {
             string dirs;
@@ -502,9 +507,14 @@ const char *findfile(const char *filename, const char *mode)
         packagedir &pf = packagedirs[i];
         if(pf.filter && strncmp(filename, pf.filter, pf.filterlen)) continue;
         formatstring(s, "%s%s", pf.dir, filename);
-        if(fileexists(s, mode)) return s;
+        if(fileexists(s, mode)) 
+        {
+            if(verbose > 1) logoutf("Verbose: found %s in package directory %s", filename, pf.dir);
+            return s;
+        }
     }
     if(mode[0]=='e') return NULL;
+    if(verbose > 1) logoutf("Verbose: file not found: %s", filename);
     return filename;
 }
 

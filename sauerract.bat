@@ -75,7 +75,7 @@ IF ERRORLEVEL 1 (
     echo WARNING: zlib1.dll not found in PATH.
 )
 
-"%TESS_BIN%\tesseract.exe" "-k%~dp0." "-u%USERPROFILE%\My Games\Sauerract" -glog.txt %*
+"%TESS_BIN%\tesseract.exe" -k. -v1 -u"%USERPROFILE%\My Games\Sauerract" -glog.txt %*
 set "TESS_EXIT=%ERRORLEVEL%"
 IF NOT "%TESS_EXIT%"=="0" (
     echo ERROR: tesseract.exe exited with code %TESS_EXIT%.

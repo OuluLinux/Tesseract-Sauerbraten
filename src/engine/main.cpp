@@ -84,6 +84,7 @@ int curtime = 0, lastmillis = 1, elapsedtime = 0, totalmillis = 1;
 dynent *player = NULL;
 
 int initing = NOT_INITING;
+int verbose = 0;
 
 bool initwarning(const char *desc, int level, int type)
 {
@@ -1155,6 +1156,7 @@ int main(int argc, char **argv)
         if(argv[i][0]=='-') switch(argv[i][1])
         {
             case 'u': if(homedir[0]) logoutf("Using home directory: %s", homedir); break;
+            case 'v': verbose = argv[i][2] ? atoi(&argv[i][2]) : 1; if(verbose) logoutf("Logging verbosity level: %d", verbose); break;
             case 'k':
             {
                 const char *dir = addpackagedir(&argv[i][2]);

@@ -1525,11 +1525,17 @@ SDL_Surface *loadsurface(const char *name)
             const char *ext = strrchr(name, '.');
             if(ext) ++ext;
             s = IMG_LoadTyped_RW(rw, 0, ext);
+            if(!s && verbose) logoutf("Verbose: IMG_LoadTyped_RW failed for %s: %s (LastError: %d)", name, IMG_GetError(), (int)GetLastError());
             SDL_FreeRW(rw);
         }
         delete z;
     }
-    if(!s) s = IMG_Load(findfile(name, "rb"));
+    if(!s) 
+    {
+        const char *filename = findfile(name, "rb");
+        s = IMG_Load(filename);
+        if(!s && verbose) logoutf("Verbose: IMG_Load failed for %s (filename: %s): %s (LastError: %d)", name, filename, IMG_GetError(), (int)GetLastError());
+    }
     return fixsurfaceformat(s);
 }
 
