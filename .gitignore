@@ -10,3 +10,8 @@
 src/tess_client
 src/tess_server
 
+# Ignore user's config files
+config/config.cfg
+config/init.cfg
+config/restore.cfg
+config/servers.cfg
