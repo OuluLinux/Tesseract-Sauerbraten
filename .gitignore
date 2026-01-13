@@ -15,3 +15,6 @@ config/config.cfg
 config/init.cfg
 config/restore.cfg
 config/servers.cfg
+
+# Ignore maestro temp
+.maestro
