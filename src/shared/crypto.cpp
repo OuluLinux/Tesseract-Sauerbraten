@@ -139,11 +139,11 @@ namespace tiger
 
         if(j > 56)
         {
-            while(j < 64) temp[j++] = 0;
+            if(j < 64) memset(&temp[j], 0, 64-j);
             compress((chunk *)temp, val.chunks);
             j = 0;
         }
-        while(j < 56) temp[j++] = 0;
+        if(j < 56) memset(&temp[j], 0, 56-j);
         *(chunk *)(temp+56) = (chunk)length<<3;
         compress((chunk *)temp, val.chunks);
         if(!islittleendian())

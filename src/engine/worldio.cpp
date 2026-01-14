@@ -446,7 +446,7 @@ void loadc(stream *f, cube &c, const ivec &co, int size, bool &failed)
         totalverts = max(f->getchar(), 0);
         newcubeext(c, totalverts, false);
         memset(c.ext->surfaces, 0, sizeof(c.ext->surfaces));
-        memset(c.ext->verts(), 0, totalverts*sizeof(vertinfo));
+        if(totalverts > 0) memset(c.ext->verts(), 0, totalverts*sizeof(vertinfo));
         int offset = 0;
         loopi(6) if(surfmask&(1<<i))
         {
@@ -757,9 +757,12 @@ void loadc_old(stream *f, cube &c, const ivec &co, int size, bool &failed)
             int surfmask, totalverts;
             surfmask = f->getchar();
             totalverts = max(f->getchar(), 0);
+        if(totalverts > 0)
+        {
             newcubeext(c, totalverts, false);
             memset(c.ext->surfaces, 0, sizeof(c.ext->surfaces));
-            memset(c.ext->verts(), 0, totalverts*sizeof(vertinfo));
+            if(totalverts > 0) memset(c.ext->verts(), 0, totalverts*sizeof(vertinfo));
+        }
             int offset = 0;
             loopi(6) if(surfmask&(1<<i))
             {
@@ -918,7 +921,7 @@ void savevslots(stream *f, int numvslots)
 {
     if(vslots.empty()) return;
     int *prev = new int[numvslots];
-    memset(prev, -1, numvslots*sizeof(int));
+    if(numvslots > 0) memset(prev, -1, numvslots*sizeof(int));
     loopi(numvslots)
     {
         VSlot *vs = vslots[i];
@@ -995,7 +998,7 @@ void loadvslots(stream *f, int numvslots)
 {
     int *prev = new (false) int[numvslots];
     if(!prev) return;
-    memset(prev, -1, numvslots*sizeof(int));
+    if(numvslots > 0) memset(prev, -1, numvslots*sizeof(int));
     while(numvslots > 0)
     {
         int changed = f->getlil<int>();

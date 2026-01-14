@@ -456,8 +456,9 @@ struct animmodel : model
 
         template<class V, class TC, class T> void calctangents(V *verts, TC *tcverts, int numverts, T *tris, int numtris, bool areaweight)
         {
-            vec *tangent = new vec[2*numverts], *bitangent = tangent+numverts;
-            memclear(tangent, 2*numverts);
+            size_t totalverts = 2*(size_t)max(numverts, 0);
+            vec *tangent = new vec[totalverts], *bitangent = tangent+numverts;
+            memclear(tangent, totalverts);
             loopi(numtris)
             {
                 const T &t = tris[i];

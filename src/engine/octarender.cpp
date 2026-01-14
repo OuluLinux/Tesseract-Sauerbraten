@@ -477,8 +477,9 @@ struct vacollect : verthash
         va->matmask = 0;
         if(va->matsurfs)
         {
-            va->matbuf = new materialsurface[matsurfs.length()];
-            memcpy(va->matbuf, matsurfs.getbuf(), matsurfs.length()*sizeof(materialsurface));
+            size_t mlen = (size_t)va->matsurfs;
+            va->matbuf = new materialsurface[mlen];
+            memcpy(va->matbuf, matsurfs.getbuf(), mlen*sizeof(materialsurface));
             loopv(matsurfs)
             {
                 materialsurface &m = matsurfs[i];

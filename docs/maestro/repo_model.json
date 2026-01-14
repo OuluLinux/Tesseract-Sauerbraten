@@ -1,6 +1,6 @@
 {
-  "repo_root": "E:\\active\\sblo\\Dev\\Tesseract-Sauerbraten",
-  "scan_timestamp": "2026-01-12T22:15:28.217206",
+  "repo_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten",
+  "scan_timestamp": "2026-01-14T17:20:19.490597",
   "assemblies": [
     {
       "assembly_id": "9d6ef1f7a4cc8a0a",
@@ -65,9 +65,9 @@
       "assembly_id": "353af1163e3dbdf5",
       "build_system": "multi",
       "metadata": {
-        "makefile": "src\\Makefile",
-        "package_root": "C:\\Users\\sblo\\Dev\\Tesseract-Sauerbraten\\src",
-        "repo_root": "C:\\Users\\sblo\\Dev\\Tesseract-Sauerbraten",
+        "makefile": "src/Makefile",
+        "package_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten/src",
+        "repo_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten",
         "project_name": "Tesseract-Sauerbraten",
         "targets": [
           {
@@ -94,59 +94,59 @@
             "name": "client",
             "output": "tess_client",
             "sources": [
-              "src\\engine\\aa.cpp",
-              "src\\engine\\bih.cpp",
-              "src\\engine\\blend.cpp",
-              "src\\engine\\client.cpp",
-              "src\\engine\\command.cpp",
-              "src\\engine\\console.cpp",
-              "src\\engine\\dynlight.cpp",
-              "src\\engine\\grass.cpp",
-              "src\\engine\\light.cpp",
-              "src\\engine\\main.cpp",
-              "src\\engine\\material.cpp",
-              "src\\engine\\menus.cpp",
-              "src\\engine\\movie.cpp",
-              "src\\engine\\normal.cpp",
-              "src\\engine\\octa.cpp",
-              "src\\engine\\octaedit.cpp",
-              "src\\engine\\octarender.cpp",
-              "src\\engine\\physics.cpp",
-              "src\\engine\\pvs.cpp",
-              "src\\engine\\rendergl.cpp",
-              "src\\engine\\renderlights.cpp",
-              "src\\engine\\rendermodel.cpp",
-              "src\\engine\\renderparticles.cpp",
-              "src\\engine\\rendersky.cpp",
-              "src\\engine\\rendertext.cpp",
-              "src\\engine\\renderva.cpp",
-              "src\\engine\\server.cpp",
-              "src\\engine\\serverbrowser.cpp",
-              "src\\engine\\shader.cpp",
-              "src\\engine\\sound.cpp",
-              "src\\engine\\stain.cpp",
-              "src\\engine\\texture.cpp",
-              "src\\engine\\ui.cpp",
-              "src\\engine\\water.cpp",
-              "src\\engine\\world.cpp",
-              "src\\engine\\worldio.cpp",
-              "src\\game\\ai.cpp",
-              "src\\game\\client.cpp",
-              "src\\game\\entities.cpp",
-              "src\\game\\game.cpp",
-              "src\\game\\monster.cpp",
-              "src\\game\\movable.cpp",
-              "src\\game\\render.cpp",
-              "src\\game\\scoreboard.cpp",
-              "src\\game\\server.cpp",
-              "src\\game\\waypoint.cpp",
-              "src\\game\\weapon.cpp",
-              "src\\shared\\crypto.cpp",
-              "src\\shared\\geom.cpp",
-              "src\\shared\\glemu.cpp",
-              "src\\shared\\stream.cpp",
-              "src\\shared\\tools.cpp",
-              "src\\shared\\zip.cpp"
+              "engine/aa.cpp",
+              "engine/bih.cpp",
+              "engine/blend.cpp",
+              "engine/client.cpp",
+              "engine/command.cpp",
+              "engine/console.cpp",
+              "engine/dynlight.cpp",
+              "engine/grass.cpp",
+              "engine/light.cpp",
+              "engine/main.cpp",
+              "engine/material.cpp",
+              "engine/menus.cpp",
+              "engine/movie.cpp",
+              "engine/normal.cpp",
+              "engine/octa.cpp",
+              "engine/octaedit.cpp",
+              "engine/octarender.cpp",
+              "engine/physics.cpp",
+              "engine/pvs.cpp",
+              "engine/rendergl.cpp",
+              "engine/renderlights.cpp",
+              "engine/rendermodel.cpp",
+              "engine/renderparticles.cpp",
+              "engine/rendersky.cpp",
+              "engine/rendertext.cpp",
+              "engine/renderva.cpp",
+              "engine/server.cpp",
+              "engine/serverbrowser.cpp",
+              "engine/shader.cpp",
+              "engine/sound.cpp",
+              "engine/stain.cpp",
+              "engine/texture.cpp",
+              "engine/ui.cpp",
+              "engine/water.cpp",
+              "engine/world.cpp",
+              "engine/worldio.cpp",
+              "game/ai.cpp",
+              "game/client.cpp",
+              "game/entities.cpp",
+              "game/game.cpp",
+              "game/monster.cpp",
+              "game/movable.cpp",
+              "game/render.cpp",
+              "game/scoreboard.cpp",
+              "game/server.cpp",
+              "game/waypoint.cpp",
+              "game/weapon.cpp",
+              "shared/crypto.cpp",
+              "shared/geom.cpp",
+              "shared/glemu.cpp",
+              "shared/stream.cpp",
+              "shared/tools.cpp",
+              "shared/zip.cpp"
             ]
           },
           {
@@ -168,7 +168,7 @@
             "name": "tessfont",
             "output": "tessfont",
             "sources": [
-              "src\\shared\\tessfont.c"
+              "shared/tessfont.c"
             ]
           },
           {
@@ -404,24 +404,24 @@
       "assembly_id": "353af1163e3dbdf5",
       "build_system": "multi",
       "metadata": {
-        "makefile": "src\\enet\\Makefile",
-        "package_root": "C:\\Users\\sblo\\Dev\\Tesseract-Sauerbraten\\src\\enet",
-        "repo_root": "C:\\Users\\sblo\\Dev\\Tesseract-Sauerbraten",
+        "makefile": "src/enet/Makefile",
+        "package_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten/src/enet",
+        "repo_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten",
         "project_name": "Tesseract-Sauerbraten",
         "targets": [
           {
             "name": "libenet.a",
             "output": null,
             "sources": [
-              "src\\enet\\callbacks.c",
-              "src\\enet\\compress.c",
-              "src\\enet\\host.c",
-              "src\\enet\\list.c",
-              "src\\enet\\packet.c",
-              "src\\enet\\peer.c",
-              "src\\enet\\protocol.c",
-              "src\\enet\\unix.c",
-              "src\\enet\\win32.c"
+              "callbacks.c",
+              "compress.c",
+              "host.c",
+              "list.c",
+              "packet.c",
+              "peer.c",
+              "protocol.c",
+              "unix.c",
+              "win32.c"
             ]
           },
           {
@@ -546,8 +546,9 @@
         "virtual"
       ],
       "metadata": {
-        "script_count": 2,
+        "script_count": 3,
         "scripts": [
+          "requirements-windows.bat",
           "sauerract.bat",
           "server.bat"
         ]
@@ -583,6 +584,59 @@
       "dir": "src",
       "upp_path": "src/Makefile",
       "files": [
+        "engine/aa.cpp",
+        "engine/bih.cpp",
+        "engine/blend.cpp",
+        "engine/client.cpp",
+        "engine/command.cpp",
+        "engine/console.cpp",
+        "engine/dynlight.cpp",
+        "engine/grass.cpp",
+        "engine/light.cpp",
+        "engine/main.cpp",
+        "engine/material.cpp",
+        "engine/menus.cpp",
+        "engine/movie.cpp",
+        "engine/normal.cpp",
+        "engine/octa.cpp",
+        "engine/octaedit.cpp",
+        "engine/octarender.cpp",
+        "engine/physics.cpp",
+        "engine/pvs.cpp",
+        "engine/rendergl.cpp",
+        "engine/renderlights.cpp",
+        "engine/rendermodel.cpp",
+        "engine/renderparticles.cpp",
+        "engine/rendersky.cpp",
+        "engine/rendertext.cpp",
+        "engine/renderva.cpp",
+        "engine/server.cpp",
+        "engine/serverbrowser.cpp",
+        "engine/shader.cpp",
+        "engine/sound.cpp",
+        "engine/stain.cpp",
+        "engine/texture.cpp",
+        "engine/ui.cpp",
+        "engine/water.cpp",
+        "engine/world.cpp",
+        "engine/worldio.cpp",
+        "game/ai.cpp",
+        "game/client.cpp",
+        "game/entities.cpp",
+        "game/game.cpp",
+        "game/monster.cpp",
+        "game/movable.cpp",
+        "game/render.cpp",
+        "game/scoreboard.cpp",
+        "game/server.cpp",
+        "game/waypoint.cpp",
+        "game/weapon.cpp",
+        "shared/crypto.cpp",
+        "shared/geom.cpp",
+        "shared/glemu.cpp",
+        "shared/stream.cpp",
+        "shared/tools.cpp",
+        "shared/zip.cpp",
         "src/engine/aa.cpp",
         "src/engine/animmodel.h",
         "src/engine/bih.cpp",
@@ -686,6 +740,59 @@
         {
           "name": "C/C++",
           "files": [
+            "engine/aa.cpp",
+            "engine/bih.cpp",
+            "engine/blend.cpp",
+            "engine/client.cpp",
+            "engine/command.cpp",
+            "engine/console.cpp",
+            "engine/dynlight.cpp",
+            "engine/grass.cpp",
+            "engine/light.cpp",
+            "engine/main.cpp",
+            "engine/material.cpp",
+            "engine/menus.cpp",
+            "engine/movie.cpp",
+            "engine/normal.cpp",
+            "engine/octa.cpp",
+            "engine/octaedit.cpp",
+            "engine/octarender.cpp",
+            "engine/physics.cpp",
+            "engine/pvs.cpp",
+            "engine/rendergl.cpp",
+            "engine/renderlights.cpp",
+            "engine/rendermodel.cpp",
+            "engine/renderparticles.cpp",
+            "engine/rendersky.cpp",
+            "engine/rendertext.cpp",
+            "engine/renderva.cpp",
+            "engine/server.cpp",
+            "engine/serverbrowser.cpp",
+            "engine/shader.cpp",
+            "engine/sound.cpp",
+            "engine/stain.cpp",
+            "engine/texture.cpp",
+            "engine/ui.cpp",
+            "engine/water.cpp",
+            "engine/world.cpp",
+            "engine/worldio.cpp",
+            "game/ai.cpp",
+            "game/client.cpp",
+            "game/entities.cpp",
+            "game/game.cpp",
+            "game/monster.cpp",
+            "game/movable.cpp",
+            "game/render.cpp",
+            "game/scoreboard.cpp",
+            "game/server.cpp",
+            "game/waypoint.cpp",
+            "game/weapon.cpp",
+            "shared/crypto.cpp",
+            "shared/geom.cpp",
+            "shared/glemu.cpp",
+            "shared/stream.cpp",
+            "shared/tools.cpp",
+            "shared/zip.cpp",
             "src/engine/aa.cpp",
             "src/engine/animmodel.h",
             "src/engine/bih.cpp",
@@ -788,9 +895,9 @@
       ],
       "ungrouped_files": [],
       "metadata": {
-        "makefile": "src\\Makefile",
-        "package_root": "C:\\Users\\sblo\\Dev\\Tesseract-Sauerbraten\\src",
-        "repo_root": "C:\\Users\\sblo\\Dev\\Tesseract-Sauerbraten",
+        "makefile": "src/Makefile",
+        "package_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten/src",
+        "repo_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten",
         "project_name": "Tesseract-Sauerbraten",
         "targets": [
           {
@@ -817,59 +924,59 @@
             "name": "client",
             "output": "tess_client",
             "sources": [
-              "src\\engine\\aa.cpp",
-              "src\\engine\\bih.cpp",
-              "src\\engine\\blend.cpp",
-              "src\\engine\\client.cpp",
-              "src\\engine\\command.cpp",
-              "src\\engine\\console.cpp",
-              "src\\engine\\dynlight.cpp",
-              "src\\engine\\grass.cpp",
-              "src\\engine\\light.cpp",
-              "src\\engine\\main.cpp",
-              "src\\engine\\material.cpp",
-              "src\\engine\\menus.cpp",
-              "src\\engine\\movie.cpp",
-              "src\\engine\\normal.cpp",
-              "src\\engine\\octa.cpp",
-              "src\\engine\\octaedit.cpp",
-              "src\\engine\\octarender.cpp",
-              "src\\engine\\physics.cpp",
-              "src\\engine\\pvs.cpp",
-              "src\\engine\\rendergl.cpp",
-              "src\\engine\\renderlights.cpp",
-              "src\\engine\\rendermodel.cpp",
-              "src\\engine\\renderparticles.cpp",
-              "src\\engine\\rendersky.cpp",
-              "src\\engine\\rendertext.cpp",
-              "src\\engine\\renderva.cpp",
-              "src\\engine\\server.cpp",
-              "src\\engine\\serverbrowser.cpp",
-              "src\\engine\\shader.cpp",
-              "src\\engine\\sound.cpp",
-              "src\\engine\\stain.cpp",
-              "src\\engine\\texture.cpp",
-              "src\\engine\\ui.cpp",
-              "src\\engine\\water.cpp",
-              "src\\engine\\world.cpp",
-              "src\\engine\\worldio.cpp",
-              "src\\game\\ai.cpp",
-              "src\\game\\client.cpp",
-              "src\\game\\entities.cpp",
-              "src\\game\\game.cpp",
-              "src\\game\\monster.cpp",
-              "src\\game\\movable.cpp",
-              "src\\game\\render.cpp",
-              "src\\game\\scoreboard.cpp",
-              "src\\game\\server.cpp",
-              "src\\game\\waypoint.cpp",
-              "src\\game\\weapon.cpp",
-              "src\\shared\\crypto.cpp",
-              "src\\shared\\geom.cpp",
-              "src\\shared\\glemu.cpp",
-              "src\\shared\\stream.cpp",
-              "src\\shared\\tools.cpp",
-              "src\\shared\\zip.cpp"
+              "engine/aa.cpp",
+              "engine/bih.cpp",
+              "engine/blend.cpp",
+              "engine/client.cpp",
+              "engine/command.cpp",
+              "engine/console.cpp",
+              "engine/dynlight.cpp",
+              "engine/grass.cpp",
+              "engine/light.cpp",
+              "engine/main.cpp",
+              "engine/material.cpp",
+              "engine/menus.cpp",
+              "engine/movie.cpp",
+              "engine/normal.cpp",
+              "engine/octa.cpp",
+              "engine/octaedit.cpp",
+              "engine/octarender.cpp",
+              "engine/physics.cpp",
+              "engine/pvs.cpp",
+              "engine/rendergl.cpp",
+              "engine/renderlights.cpp",
+              "engine/rendermodel.cpp",
+              "engine/renderparticles.cpp",
+              "engine/rendersky.cpp",
+              "engine/rendertext.cpp",
+              "engine/renderva.cpp",
+              "engine/server.cpp",
+              "engine/serverbrowser.cpp",
+              "engine/shader.cpp",
+              "engine/sound.cpp",
+              "engine/stain.cpp",
+              "engine/texture.cpp",
+              "engine/ui.cpp",
+              "engine/water.cpp",
+              "engine/world.cpp",
+              "engine/worldio.cpp",
+              "game/ai.cpp",
+              "game/client.cpp",
+              "game/entities.cpp",
+              "game/game.cpp",
+              "game/monster.cpp",
+              "game/movable.cpp",
+              "game/render.cpp",
+              "game/scoreboard.cpp",
+              "game/server.cpp",
+              "game/waypoint.cpp",
+              "game/weapon.cpp",
+              "shared/crypto.cpp",
+              "shared/geom.cpp",
+              "shared/glemu.cpp",
+              "shared/stream.cpp",
+              "shared/tools.cpp",
+              "shared/zip.cpp"
             ]
           },
           {
@@ -891,7 +998,7 @@
             "name": "tessfont",
             "output": "tessfont",
             "sources": [
-              "src\\shared\\tessfont.c"
+              "shared/tessfont.c"
             ]
           },
           {
@@ -1130,24 +1237,24 @@
       "groups": [],
       "ungrouped_files": [],
       "metadata": {
-        "makefile": "src\\enet\\Makefile",
-        "package_root": "C:\\Users\\sblo\\Dev\\Tesseract-Sauerbraten\\src\\enet",
-        "repo_root": "C:\\Users\\sblo\\Dev\\Tesseract-Sauerbraten",
+        "makefile": "src/enet/Makefile",
+        "package_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten/src/enet",
+        "repo_root": "/common/active/sblo/Dev/Tesseract-Sauerbraten",
         "project_name": "Tesseract-Sauerbraten",
         "targets": [
           {
             "name": "libenet.a",
             "output": null,
             "sources": [
-              "src\\enet\\callbacks.c",
-              "src\\enet\\compress.c",
-              "src\\enet\\host.c",
-              "src\\enet\\list.c",
-              "src\\enet\\packet.c",
-              "src\\enet\\peer.c",
-              "src\\enet\\protocol.c",
-              "src\\enet\\unix.c",
-              "src\\enet\\win32.c"
+              "callbacks.c",
+              "compress.c",
+              "host.c",
+              "list.c",
+              "packet.c",
+              "peer.c",
+              "protocol.c",
+              "unix.c",
+              "win32.c"
             ]
           },
           {
@@ -1253,6 +1360,7 @@
       "dir": ".",
       "upp_path": "",
       "files": [
+        "requirements-windows.bat",
         "sauerract.bat",
         "server.bat"
       ],
@@ -1273,6 +1381,11 @@
     {
       "path": ".gitignore",
       "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "C:/Users/sblo/Dev/Tesseract-Sauerbraten",
+      "type": "dir",
       "guessed_kind": "unknown"
     },
     {
@@ -1356,102 +1469,52 @@
       "guessed_kind": "docs"
     },
     {
-      "path": "bin64/SDL2.dll",
+      "path": "bin64/tesseract.exe",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/SDL2_image.dll",
+      "path": "bin64/tesseract.exp",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/SDL2_mixer.dll",
+      "path": "bin64/tesseract.lib",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/libFLAC-8.dll",
+      "path": "bin64/tesseract.map",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/libjpeg-9.dll",
+      "path": "bin64/tesseract.pdb",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/libmikmod-2.dll",
+      "path": "bin64/tesseract_debug.exe",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/libmodplug-1.dll",
+      "path": "bin64/tesseract_debug.exp",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/libmpg123-0.dll",
+      "path": "bin64/tesseract_debug.ilk",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/libogg-0.dll",
+      "path": "bin64/tesseract_debug.lib",
       "type": "file",
       "guessed_kind": "tooling"
     },
     {
-      "path": "bin64/libopus-0.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/libopusfile-0.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/libpng16-16.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/libtiff-5.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/libvorbis-0.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/libvorbisfile-3.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/libwebp-4.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/libwebp-7.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/libwinpthread-1.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/smpeg2.dll",
-      "type": "file",
-      "guessed_kind": "tooling"
-    },
-    {
-      "path": "bin64/zlib1.dll",
+      "path": "bin64/tesseract_debug.pdb",
       "type": "file",
       "guessed_kind": "tooling"
     },
@@ -1464,6 +1527,11 @@
       "path": "bin_unix/readme.txt",
       "type": "file",
       "guessed_kind": "docs"
+    },
+    {
+      "path": "build.log",
+      "type": "file",
+      "guessed_kind": "unknown"
     },
     {
       "path": "config",
@@ -16086,6 +16154,21 @@
       "guessed_kind": "unknown"
     },
     {
+      "path": "packages/models/mapmodels/mapmodels/ow/tree/obj.cfg",
+      "type": "file",
+      "guessed_kind": "config"
+    },
+    {
+      "path": "packages/models/mapmodels/mapmodels/ow/tree/skin.png",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/mapmodels/mapmodels/ow/tree/tree.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
       "path": "packages/models/mapmodels/mapmodels/ow/tree2",
       "type": "dir",
       "guessed_kind": "unknown"
@@ -16119,21 +16202,6 @@
       "path": "packages/models/mapmodels/mapmodels/ow/tree4/obj.cfg",
       "type": "file",
       "guessed_kind": "config"
-    },
-    {
-      "path": "packages/models/mapmodels/mapmodels/ow/tree/obj.cfg",
-      "type": "file",
-      "guessed_kind": "config"
-    },
-    {
-      "path": "packages/models/mapmodels/mapmodels/ow/tree/skin.png",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/mapmodels/mapmodels/ow/tree/tree.obj",
-      "type": "file",
-      "guessed_kind": "unknown"
     },
     {
       "path": "packages/models/mapmodels/mapmodels/quakish",
@@ -16731,6 +16799,21 @@
       "guessed_kind": "unknown"
     },
     {
+      "path": "packages/models/mapmodels/mapmodels/toca/radioactivedrum/md3.cfg",
+      "type": "file",
+      "guessed_kind": "config"
+    },
+    {
+      "path": "packages/models/mapmodels/mapmodels/toca/radioactivedrum/skin.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/mapmodels/mapmodels/toca/radioactivedrum/tris.md3",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
       "path": "packages/models/mapmodels/mapmodels/toca/radioactivedrum2",
       "type": "dir",
       "guessed_kind": "unknown"
@@ -16747,21 +16830,6 @@
     },
     {
       "path": "packages/models/mapmodels/mapmodels/toca/radioactivedrum2/tris.md3",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "packages/models/mapmodels/mapmodels/toca/radioactivedrum/md3.cfg",
-      "type": "file",
-      "guessed_kind": "config"
-    },
-    {
-      "path": "packages/models/mapmodels/mapmodels/toca/radioactivedrum/skin.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/mapmodels/mapmodels/toca/radioactivedrum/tris.md3",
       "type": "file",
       "guessed_kind": "unknown"
     },
@@ -22306,6 +22374,111 @@
       "guessed_kind": "unknown"
     },
     {
+      "path": "packages/models/ogro/Ogro.txt",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "packages/models/ogro/blue",
+      "type": "dir",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "packages/models/ogro/blue/masks.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/blue/md2.cfg",
+      "type": "file",
+      "guessed_kind": "config"
+    },
+    {
+      "path": "packages/models/ogro/blue/skin.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/green",
+      "type": "dir",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "packages/models/ogro/green/masks.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/green/md2.cfg",
+      "type": "file",
+      "guessed_kind": "config"
+    },
+    {
+      "path": "packages/models/ogro/green/skin.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/md2.cfg",
+      "type": "file",
+      "guessed_kind": "config"
+    },
+    {
+      "path": "packages/models/ogro/red",
+      "type": "dir",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "packages/models/ogro/red/masks.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/red/md2.cfg",
+      "type": "file",
+      "guessed_kind": "config"
+    },
+    {
+      "path": "packages/models/ogro/red/skin.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/skin.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/tris.md2",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "packages/models/ogro/vwep",
+      "type": "dir",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "packages/models/ogro/vwep/masks.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/vwep/md2.cfg",
+      "type": "file",
+      "guessed_kind": "config"
+    },
+    {
+      "path": "packages/models/ogro/vwep/skin.jpg",
+      "type": "file",
+      "guessed_kind": "assets"
+    },
+    {
+      "path": "packages/models/ogro/vwep/tris.md2",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
       "path": "packages/models/ogro2",
       "type": "dir",
       "guessed_kind": "unknown"
@@ -22582,111 +22755,6 @@
     },
     {
       "path": "packages/models/ogro2/wave_alt.iqm",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "packages/models/ogro/Ogro.txt",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "packages/models/ogro/blue",
-      "type": "dir",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "packages/models/ogro/blue/masks.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/blue/md2.cfg",
-      "type": "file",
-      "guessed_kind": "config"
-    },
-    {
-      "path": "packages/models/ogro/blue/skin.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/green",
-      "type": "dir",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "packages/models/ogro/green/masks.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/green/md2.cfg",
-      "type": "file",
-      "guessed_kind": "config"
-    },
-    {
-      "path": "packages/models/ogro/green/skin.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/md2.cfg",
-      "type": "file",
-      "guessed_kind": "config"
-    },
-    {
-      "path": "packages/models/ogro/red",
-      "type": "dir",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "packages/models/ogro/red/masks.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/red/md2.cfg",
-      "type": "file",
-      "guessed_kind": "config"
-    },
-    {
-      "path": "packages/models/ogro/red/skin.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/skin.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/tris.md2",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "packages/models/ogro/vwep",
-      "type": "dir",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "packages/models/ogro/vwep/masks.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/vwep/md2.cfg",
-      "type": "file",
-      "guessed_kind": "config"
-    },
-    {
-      "path": "packages/models/ogro/vwep/skin.jpg",
-      "type": "file",
-      "guessed_kind": "assets"
-    },
-    {
-      "path": "packages/models/ogro/vwep/tris.md2",
       "type": "file",
       "guessed_kind": "unknown"
     },
@@ -53291,6 +53359,11 @@
       "guessed_kind": "config"
     },
     {
+      "path": "requirements-windows.bat",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
       "path": "sauerract.bat",
       "type": "file",
       "guessed_kind": "unknown"
@@ -53312,11 +53385,6 @@
     },
     {
       "path": "src/Makefile",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "src/Makefile.bak",
       "type": "file",
       "guessed_kind": "unknown"
     },
@@ -54316,6 +54384,31 @@
       "guessed_kind": "unknown"
     },
     {
+      "path": "src/lib/SDL2.lib",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/lib/SDL2_image.lib",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/lib/SDL2_mixer.lib",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/lib/enet.lib",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/lib/zdll.lib",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
       "path": "src/lib64",
       "type": "dir",
       "guessed_kind": "unknown"
@@ -54342,31 +54435,6 @@
     },
     {
       "path": "src/lib64/zdll.lib",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "src/lib/SDL2.lib",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "src/lib/SDL2_image.lib",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "src/lib/SDL2_mixer.lib",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "src/lib/enet.lib",
-      "type": "file",
-      "guessed_kind": "unknown"
-    },
-    {
-      "path": "src/lib/zdll.lib",
       "type": "file",
       "guessed_kind": "unknown"
     },
@@ -54511,12 +54579,617 @@
       "guessed_kind": "unknown"
     },
     {
+      "path": "src/vcpp/Debug64",
+      "type": "dir",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/aa.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/ai.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/bih.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/blend.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/client.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/client1.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/command.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/console.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/crypto.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/cube.pch",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/dynlight.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/engine.pch",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/entities.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/game.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/game.pch",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/geom.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/glemu.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/grass.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/light.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/main.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/material.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/menus.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/monster.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/movable.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/movie.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/normal.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/octa.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/octaedit.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/octarender.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/pch.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/pch1.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/pch2.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/physics.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/pvs.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/render.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/rendergl.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/renderlights.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/rendermodel.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/renderparticles.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/rendersky.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/rendertext.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/renderva.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/scoreboard.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/server.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/server1.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/serverbrowser.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/shader.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/sound.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/stain.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/stream.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/tesseract.res",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/texture.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/tools.obj",
+      "type": "file",
+      "guessed_kind": "tooling"
+    },
+    {
+      "path": "src/vcpp/Debug64/ui.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/water.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/waypoint.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/weapon.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/world.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/worldio.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Debug64/zip.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
       "path": "src/vcpp/Release64",
       "type": "dir",
       "guessed_kind": "unknown"
     },
     {
+      "path": "src/vcpp/Release64/aa.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/ai.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/bih.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/blend.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/client.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/client1.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/command.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/console.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/crypto.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/cube.pch",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/dynlight.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/engine.pch",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/entities.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/game.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/game.pch",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/geom.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/glemu.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/grass.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/light.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/main.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/material.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/menus.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/monster.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/movable.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/movie.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/normal.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/octa.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/octaedit.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/octarender.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/pch.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/pch1.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/pch2.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/physics.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/pvs.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/render.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/rendergl.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/renderlights.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/rendermodel.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/renderparticles.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/rendersky.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/rendertext.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/renderva.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/scoreboard.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/server.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/server1.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/serverbrowser.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/shader.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/sound.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/stain.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/stream.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
       "path": "src/vcpp/Release64/tesseract.log",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/tesseract.res",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/texture.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/tools.obj",
+      "type": "file",
+      "guessed_kind": "tooling"
+    },
+    {
+      "path": "src/vcpp/Release64/ui.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/water.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/waypoint.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/weapon.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/world.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/worldio.obj",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
+      "path": "src/vcpp/Release64/zip.obj",
       "type": "file",
       "guessed_kind": "unknown"
     },
@@ -54586,6 +55259,11 @@
       "guessed_kind": "unknown"
     },
     {
+      "path": "src/vcpp/vc140.pdb",
+      "type": "file",
+      "guessed_kind": "unknown"
+    },
+    {
       "path": "src/xcode",
       "type": "dir",
       "guessed_kind": "unknown"
@@ -54642,26 +55320,16 @@
         "bin64/LICENSE.webp.txt",
         "bin64/LICENSE.zlib.txt",
         "bin64/README-SDL.txt",
-        "bin64/SDL2.dll",
-        "bin64/SDL2_image.dll",
-        "bin64/SDL2_mixer.dll",
-        "bin64/libFLAC-8.dll",
-        "bin64/libjpeg-9.dll",
-        "bin64/libmikmod-2.dll",
-        "bin64/libmodplug-1.dll",
-        "bin64/libmpg123-0.dll",
-        "bin64/libogg-0.dll",
-        "bin64/libopus-0.dll",
-        "bin64/libopusfile-0.dll",
-        "bin64/libpng16-16.dll",
-        "bin64/libtiff-5.dll",
-        "bin64/libvorbis-0.dll",
-        "bin64/libvorbisfile-3.dll",
-        "bin64/libwebp-4.dll",
-        "bin64/libwebp-7.dll",
-        "bin64/libwinpthread-1.dll",
-        "bin64/smpeg2.dll",
-        "bin64/zlib1.dll"
+        "bin64/tesseract.exe",
+        "bin64/tesseract.exp",
+        "bin64/tesseract.lib",
+        "bin64/tesseract.map",
+        "bin64/tesseract.pdb",
+        "bin64/tesseract_debug.exe",
+        "bin64/tesseract_debug.exp",
+        "bin64/tesseract_debug.ilk",
+        "bin64/tesseract_debug.lib",
+        "bin64/tesseract_debug.pdb"
       ],
       "groups": [
         {
@@ -54688,26 +55356,16 @@
         {
           "name": "Other",
           "files": [
-            "bin64/SDL2.dll",
-            "bin64/SDL2_image.dll",
-            "bin64/SDL2_mixer.dll",
-            "bin64/libFLAC-8.dll",
-            "bin64/libjpeg-9.dll",
-            "bin64/libmikmod-2.dll",
-            "bin64/libmodplug-1.dll",
-            "bin64/libmpg123-0.dll",
-            "bin64/libogg-0.dll",
-            "bin64/libopus-0.dll",
-            "bin64/libopusfile-0.dll",
-            "bin64/libpng16-16.dll",
-            "bin64/libtiff-5.dll",
-            "bin64/libvorbis-0.dll",
-            "bin64/libvorbisfile-3.dll",
-            "bin64/libwebp-4.dll",
-            "bin64/libwebp-7.dll",
-            "bin64/libwinpthread-1.dll",
-            "bin64/smpeg2.dll",
-            "bin64/zlib1.dll"
+            "bin64/tesseract.exe",
+            "bin64/tesseract.exp",
+            "bin64/tesseract.lib",
+            "bin64/tesseract.map",
+            "bin64/tesseract.pdb",
+            "bin64/tesseract_debug.exe",
+            "bin64/tesseract_debug.exp",
+            "bin64/tesseract_debug.ilk",
+            "bin64/tesseract_debug.lib",
+            "bin64/tesseract_debug.pdb"
           ],
           "readonly": false,
           "auto_generated": true
@@ -57786,6 +58444,9 @@
         "packages/models/mapmodels/mapmodels/ow/tarp/normal.jpg",
         "packages/models/mapmodels/mapmodels/ow/tarp/obj.cfg",
         "packages/models/mapmodels/mapmodels/ow/tree",
+        "packages/models/mapmodels/mapmodels/ow/tree/obj.cfg",
+        "packages/models/mapmodels/mapmodels/ow/tree/skin.png",
+        "packages/models/mapmodels/mapmodels/ow/tree/tree.obj",
         "packages/models/mapmodels/mapmodels/ow/tree2",
         "packages/models/mapmodels/mapmodels/ow/tree2/obj.cfg",
         "packages/models/mapmodels/mapmodels/ow/tree2/tree2.obj",
@@ -57793,9 +58454,6 @@
         "packages/models/mapmodels/mapmodels/ow/tree3/obj.cfg",
         "packages/models/mapmodels/mapmodels/ow/tree4",
         "packages/models/mapmodels/mapmodels/ow/tree4/obj.cfg",
-        "packages/models/mapmodels/mapmodels/ow/tree/obj.cfg",
-        "packages/models/mapmodels/mapmodels/ow/tree/skin.png",
-        "packages/models/mapmodels/mapmodels/ow/tree/tree.obj",
         "packages/models/mapmodels/mapmodels/quakish",
         "packages/models/mapmodels/mapmodels/quakish/grim_reaper",
         "packages/models/mapmodels/mapmodels/quakish/grim_reaper/Dissonance.txt",
@@ -57915,13 +58573,13 @@
         "packages/models/mapmodels/mapmodels/toca/industrialpipes/vert/tris.md3",
         "packages/models/mapmodels/mapmodels/toca/license.txt",
         "packages/models/mapmodels/mapmodels/toca/radioactivedrum",
+        "packages/models/mapmodels/mapmodels/toca/radioactivedrum/md3.cfg",
+        "packages/models/mapmodels/mapmodels/toca/radioactivedrum/skin.jpg",
+        "packages/models/mapmodels/mapmodels/toca/radioactivedrum/tris.md3",
         "packages/models/mapmodels/mapmodels/toca/radioactivedrum2",
         "packages/models/mapmodels/mapmodels/toca/radioactivedrum2/md3.cfg",
         "packages/models/mapmodels/mapmodels/toca/radioactivedrum2/skin.jpg",
         "packages/models/mapmodels/mapmodels/toca/radioactivedrum2/tris.md3",
-        "packages/models/mapmodels/mapmodels/toca/radioactivedrum/md3.cfg",
-        "packages/models/mapmodels/mapmodels/toca/radioactivedrum/skin.jpg",
-        "packages/models/mapmodels/mapmodels/toca/radioactivedrum/tris.md3",
         "packages/models/mapmodels/mapmodels/toca/signs",
         "packages/models/mapmodels/mapmodels/toca/signs/radioactive",
         "packages/models/mapmodels/mapmodels/toca/signs/radioactive/md3.cfg",
@@ -59030,6 +59688,27 @@
         "packages/models/mrfixit/taunt.md5anim",
         "packages/models/mrfixit/win.md5anim",
         "packages/models/ogro",
+        "packages/models/ogro/Ogro.txt",
+        "packages/models/ogro/blue",
+        "packages/models/ogro/blue/masks.jpg",
+        "packages/models/ogro/blue/md2.cfg",
+        "packages/models/ogro/blue/skin.jpg",
+        "packages/models/ogro/green",
+        "packages/models/ogro/green/masks.jpg",
+        "packages/models/ogro/green/md2.cfg",
+        "packages/models/ogro/green/skin.jpg",
+        "packages/models/ogro/md2.cfg",
+        "packages/models/ogro/red",
+        "packages/models/ogro/red/masks.jpg",
+        "packages/models/ogro/red/md2.cfg",
+        "packages/models/ogro/red/skin.jpg",
+        "packages/models/ogro/skin.jpg",
+        "packages/models/ogro/tris.md2",
+        "packages/models/ogro/vwep",
+        "packages/models/ogro/vwep/masks.jpg",
+        "packages/models/ogro/vwep/md2.cfg",
+        "packages/models/ogro/vwep/skin.jpg",
+        "packages/models/ogro/vwep/tris.md2",
         "packages/models/ogro2",
         "packages/models/ogro2/anims.cfg",
         "packages/models/ogro2/armor",
@@ -59086,27 +59765,6 @@
         "packages/models/ogro2/sniper_shoot.iqm",
         "packages/models/ogro2/swim.iqm",
         "packages/models/ogro2/wave_alt.iqm",
-        "packages/models/ogro/Ogro.txt",
-        "packages/models/ogro/blue",
-        "packages/models/ogro/blue/masks.jpg",
-        "packages/models/ogro/blue/md2.cfg",
-        "packages/models/ogro/blue/skin.jpg",
-        "packages/models/ogro/green",
-        "packages/models/ogro/green/masks.jpg",
-        "packages/models/ogro/green/md2.cfg",
-        "packages/models/ogro/green/skin.jpg",
-        "packages/models/ogro/md2.cfg",
-        "packages/models/ogro/red",
-        "packages/models/ogro/red/masks.jpg",
-        "packages/models/ogro/red/md2.cfg",
-        "packages/models/ogro/red/skin.jpg",
-        "packages/models/ogro/skin.jpg",
-        "packages/models/ogro/tris.md2",
-        "packages/models/ogro/vwep",
-        "packages/models/ogro/vwep/masks.jpg",
-        "packages/models/ogro/vwep/md2.cfg",
-        "packages/models/ogro/vwep/skin.jpg",
-        "packages/models/ogro/vwep/tris.md2",
         "packages/models/projectiles",
         "packages/models/projectiles/grenade",
         "packages/models/projectiles/grenade/license.txt",
@@ -65633,8 +66291,8 @@
             "packages/models/monster/rhino/rhino.txt",
             "packages/models/monster/slith/slithMe.txt",
             "packages/models/mrfixit/license.txt",
-            "packages/models/ogro2/ogro2.txt",
             "packages/models/ogro/Ogro.txt",
+            "packages/models/ogro2/ogro2.txt",
             "packages/models/projectiles/grenade/license.txt",
             "packages/models/projectiles/rocket/license.txt",
             "packages/models/quad/readme.txt",
@@ -66584,8 +67242,8 @@
             "packages/models/mapmodels/mapmodels/sitters/gothic/skelet1/skin.png",
             "packages/models/mapmodels/mapmodels/toca/industrialpipes/l-shape.jpg",
             "packages/models/mapmodels/mapmodels/toca/industrialpipes/long_seg.jpg",
-            "packages/models/mapmodels/mapmodels/toca/radioactivedrum2/skin.jpg",
             "packages/models/mapmodels/mapmodels/toca/radioactivedrum/skin.jpg",
+            "packages/models/mapmodels/mapmodels/toca/radioactivedrum2/skin.jpg",
             "packages/models/mapmodels/mapmodels/toca/signs/radioactive/skin.jpg",
             "packages/models/mapmodels/mapmodels/toca/signs/restricted/skin.jpg",
             "packages/models/mapmodels/mapmodels/tubes/ladder/ladder_color.jpg",
@@ -66886,14 +67544,6 @@
             "packages/models/mrfixit/hudguns/fixit_hands_mask.png",
             "packages/models/mrfixit/hudguns/fixit_hands_normals.png",
             "packages/models/mrfixit/hudguns/fixit_hands_red.png",
-            "packages/models/ogro2/armor/mask.png",
-            "packages/models/ogro2/armor/skin.png",
-            "packages/models/ogro2/blue.jpg",
-            "packages/models/ogro2/green.jpg",
-            "packages/models/ogro2/masks.jpg",
-            "packages/models/ogro2/quad/mask.png",
-            "packages/models/ogro2/quad/skin.png",
-            "packages/models/ogro2/red.jpg",
             "packages/models/ogro/blue/masks.jpg",
             "packages/models/ogro/blue/skin.jpg",
             "packages/models/ogro/green/masks.jpg",
@@ -66903,6 +67553,14 @@
             "packages/models/ogro/skin.jpg",
             "packages/models/ogro/vwep/masks.jpg",
             "packages/models/ogro/vwep/skin.jpg",
+            "packages/models/ogro2/armor/mask.png",
+            "packages/models/ogro2/armor/skin.png",
+            "packages/models/ogro2/blue.jpg",
+            "packages/models/ogro2/green.jpg",
+            "packages/models/ogro2/masks.jpg",
+            "packages/models/ogro2/quad/mask.png",
+            "packages/models/ogro2/quad/skin.png",
+            "packages/models/ogro2/red.jpg",
             "packages/models/projectiles/grenade/masks.jpg",
             "packages/models/projectiles/grenade/skin.jpg",
             "packages/models/projectiles/rocket/masks.jpg",
@@ -74142,6 +74800,8 @@
             "packages/models/mapmodels/mapmodels/ow/tarp/house.obj",
             "packages/models/mapmodels/mapmodels/ow/tarp/obj.cfg",
             "packages/models/mapmodels/mapmodels/ow/tree",
+            "packages/models/mapmodels/mapmodels/ow/tree/obj.cfg",
+            "packages/models/mapmodels/mapmodels/ow/tree/tree.obj",
             "packages/models/mapmodels/mapmodels/ow/tree2",
             "packages/models/mapmodels/mapmodels/ow/tree2/obj.cfg",
             "packages/models/mapmodels/mapmodels/ow/tree2/tree2.obj",
@@ -74149,8 +74809,6 @@
             "packages/models/mapmodels/mapmodels/ow/tree3/obj.cfg",
             "packages/models/mapmodels/mapmodels/ow/tree4",
             "packages/models/mapmodels/mapmodels/ow/tree4/obj.cfg",
-            "packages/models/mapmodels/mapmodels/ow/tree/obj.cfg",
-            "packages/models/mapmodels/mapmodels/ow/tree/tree.obj",
             "packages/models/mapmodels/mapmodels/quakish",
             "packages/models/mapmodels/mapmodels/quakish/grim_reaper",
             "packages/models/mapmodels/mapmodels/quakish/grim_reaper/adam",
@@ -74237,11 +74895,11 @@
             "packages/models/mapmodels/mapmodels/toca/industrialpipes/vert/md3.cfg",
             "packages/models/mapmodels/mapmodels/toca/industrialpipes/vert/tris.md3",
             "packages/models/mapmodels/mapmodels/toca/radioactivedrum",
+            "packages/models/mapmodels/mapmodels/toca/radioactivedrum/md3.cfg",
+            "packages/models/mapmodels/mapmodels/toca/radioactivedrum/tris.md3",
             "packages/models/mapmodels/mapmodels/toca/radioactivedrum2",
             "packages/models/mapmodels/mapmodels/toca/radioactivedrum2/md3.cfg",
             "packages/models/mapmodels/mapmodels/toca/radioactivedrum2/tris.md3",
-            "packages/models/mapmodels/mapmodels/toca/radioactivedrum/md3.cfg",
-            "packages/models/mapmodels/mapmodels/toca/radioactivedrum/tris.md3",
             "packages/models/mapmodels/mapmodels/toca/signs",
             "packages/models/mapmodels/mapmodels/toca/signs/radioactive",
             "packages/models/mapmodels/mapmodels/toca/signs/radioactive/md3.cfg",
@@ -75002,6 +75660,17 @@
             "packages/models/mrfixit/taunt.md5anim",
             "packages/models/mrfixit/win.md5anim",
             "packages/models/ogro",
+            "packages/models/ogro/blue",
+            "packages/models/ogro/blue/md2.cfg",
+            "packages/models/ogro/green",
+            "packages/models/ogro/green/md2.cfg",
+            "packages/models/ogro/md2.cfg",
+            "packages/models/ogro/red",
+            "packages/models/ogro/red/md2.cfg",
+            "packages/models/ogro/tris.md2",
+            "packages/models/ogro/vwep",
+            "packages/models/ogro/vwep/md2.cfg",
+            "packages/models/ogro/vwep/tris.md2",
             "packages/models/ogro2",
             "packages/models/ogro2/anims.cfg",
             "packages/models/ogro2/armor",
@@ -75049,17 +75718,6 @@
             "packages/models/ogro2/sniper_shoot.iqm",
             "packages/models/ogro2/swim.iqm",
             "packages/models/ogro2/wave_alt.iqm",
-            "packages/models/ogro/blue",
-            "packages/models/ogro/blue/md2.cfg",
-            "packages/models/ogro/green",
-            "packages/models/ogro/green/md2.cfg",
-            "packages/models/ogro/md2.cfg",
-            "packages/models/ogro/red",
-            "packages/models/ogro/red/md2.cfg",
-            "packages/models/ogro/tris.md2",
-            "packages/models/ogro/vwep",
-            "packages/models/ogro/vwep/md2.cfg",
-            "packages/models/ogro/vwep/tris.md2",
             "packages/models/projectiles",
             "packages/models/projectiles/grenade",
             "packages/models/projectiles/grenade/md3.cfg",
@@ -75549,13 +76207,16 @@
       "members": [
         ".gitattributes",
         ".gitignore",
+        "C:/Users/sblo/Dev/Tesseract-Sauerbraten",
         "README.md",
         "bin64",
         "bin_unix",
+        "build.log",
         "config",
         "docs",
         "maps status.xlsx",
         "packages",
+        "requirements-windows.bat",
         "sauerract.bat",
         "sauerract_unix",
         "server.bat",
@@ -75575,12 +76236,15 @@
           "files": [
             ".gitattributes",
             ".gitignore",
+            "C:/Users/sblo/Dev/Tesseract-Sauerbraten",
             "bin64",
             "bin_unix",
+            "build.log",
             "config",
             "docs",
             "maps status.xlsx",
             "packages",
+            "requirements-windows.bat",
             "sauerract.bat",
             "sauerract_unix",
             "server.bat",
@@ -75598,7 +76262,6 @@
       "guessed_type": "misc",
       "members": [
         "src/Makefile",
-        "src/Makefile.bak",
         "src/enet",
         "src/enet/ChangeLog",
         "src/enet/LICENSE",
@@ -75798,17 +76461,17 @@
         "src/include/zconf.h",
         "src/include/zlib.h",
         "src/lib",
+        "src/lib/SDL2.lib",
+        "src/lib/SDL2_image.lib",
+        "src/lib/SDL2_mixer.lib",
+        "src/lib/enet.lib",
+        "src/lib/zdll.lib",
         "src/lib64",
         "src/lib64/SDL2.lib",
         "src/lib64/SDL2_image.lib",
         "src/lib64/SDL2_mixer.lib",
         "src/lib64/enet.lib",
         "src/lib64/zdll.lib",
-        "src/lib/SDL2.lib",
-        "src/lib/SDL2_image.lib",
-        "src/lib/SDL2_mixer.lib",
-        "src/lib/enet.lib",
-        "src/lib/zdll.lib",
         "src/readme_sauerbraten.txt",
         "src/readme_tesseract.txt",
         "src/shared",
@@ -75837,8 +76500,129 @@
         "src/standalone/shared",
         "src/standalone/shared/.gitkeep",
         "src/vcpp",
+        "src/vcpp/Debug64",
+        "src/vcpp/Debug64/aa.obj",
+        "src/vcpp/Debug64/ai.obj",
+        "src/vcpp/Debug64/bih.obj",
+        "src/vcpp/Debug64/blend.obj",
+        "src/vcpp/Debug64/client.obj",
+        "src/vcpp/Debug64/client1.obj",
+        "src/vcpp/Debug64/command.obj",
+        "src/vcpp/Debug64/console.obj",
+        "src/vcpp/Debug64/crypto.obj",
+        "src/vcpp/Debug64/cube.pch",
+        "src/vcpp/Debug64/dynlight.obj",
+        "src/vcpp/Debug64/engine.pch",
+        "src/vcpp/Debug64/entities.obj",
+        "src/vcpp/Debug64/game.obj",
+        "src/vcpp/Debug64/game.pch",
+        "src/vcpp/Debug64/geom.obj",
+        "src/vcpp/Debug64/glemu.obj",
+        "src/vcpp/Debug64/grass.obj",
+        "src/vcpp/Debug64/light.obj",
+        "src/vcpp/Debug64/main.obj",
+        "src/vcpp/Debug64/material.obj",
+        "src/vcpp/Debug64/menus.obj",
+        "src/vcpp/Debug64/monster.obj",
+        "src/vcpp/Debug64/movable.obj",
+        "src/vcpp/Debug64/movie.obj",
+        "src/vcpp/Debug64/normal.obj",
+        "src/vcpp/Debug64/octa.obj",
+        "src/vcpp/Debug64/octaedit.obj",
+        "src/vcpp/Debug64/octarender.obj",
+        "src/vcpp/Debug64/pch.obj",
+        "src/vcpp/Debug64/pch1.obj",
+        "src/vcpp/Debug64/pch2.obj",
+        "src/vcpp/Debug64/physics.obj",
+        "src/vcpp/Debug64/pvs.obj",
+        "src/vcpp/Debug64/render.obj",
+        "src/vcpp/Debug64/rendergl.obj",
+        "src/vcpp/Debug64/renderlights.obj",
+        "src/vcpp/Debug64/rendermodel.obj",
+        "src/vcpp/Debug64/renderparticles.obj",
+        "src/vcpp/Debug64/rendersky.obj",
+        "src/vcpp/Debug64/rendertext.obj",
+        "src/vcpp/Debug64/renderva.obj",
+        "src/vcpp/Debug64/scoreboard.obj",
+        "src/vcpp/Debug64/server.obj",
+        "src/vcpp/Debug64/server1.obj",
+        "src/vcpp/Debug64/serverbrowser.obj",
+        "src/vcpp/Debug64/shader.obj",
+        "src/vcpp/Debug64/sound.obj",
+        "src/vcpp/Debug64/stain.obj",
+        "src/vcpp/Debug64/stream.obj",
+        "src/vcpp/Debug64/tesseract.res",
+        "src/vcpp/Debug64/texture.obj",
+        "src/vcpp/Debug64/tools.obj",
+        "src/vcpp/Debug64/ui.obj",
+        "src/vcpp/Debug64/water.obj",
+        "src/vcpp/Debug64/waypoint.obj",
+        "src/vcpp/Debug64/weapon.obj",
+        "src/vcpp/Debug64/world.obj",
+        "src/vcpp/Debug64/worldio.obj",
+        "src/vcpp/Debug64/zip.obj",
         "src/vcpp/Release64",
+        "src/vcpp/Release64/aa.obj",
+        "src/vcpp/Release64/ai.obj",
+        "src/vcpp/Release64/bih.obj",
+        "src/vcpp/Release64/blend.obj",
+        "src/vcpp/Release64/client.obj",
+        "src/vcpp/Release64/client1.obj",
+        "src/vcpp/Release64/command.obj",
+        "src/vcpp/Release64/console.obj",
+        "src/vcpp/Release64/crypto.obj",
+        "src/vcpp/Release64/cube.pch",
+        "src/vcpp/Release64/dynlight.obj",
+        "src/vcpp/Release64/engine.pch",
+        "src/vcpp/Release64/entities.obj",
+        "src/vcpp/Release64/game.obj",
+        "src/vcpp/Release64/game.pch",
+        "src/vcpp/Release64/geom.obj",
+        "src/vcpp/Release64/glemu.obj",
+        "src/vcpp/Release64/grass.obj",
+        "src/vcpp/Release64/light.obj",
+        "src/vcpp/Release64/main.obj",
+        "src/vcpp/Release64/material.obj",
+        "src/vcpp/Release64/menus.obj",
+        "src/vcpp/Release64/monster.obj",
+        "src/vcpp/Release64/movable.obj",
+        "src/vcpp/Release64/movie.obj",
+        "src/vcpp/Release64/normal.obj",
+        "src/vcpp/Release64/octa.obj",
+        "src/vcpp/Release64/octaedit.obj",
+        "src/vcpp/Release64/octarender.obj",
+        "src/vcpp/Release64/pch.obj",
+        "src/vcpp/Release64/pch1.obj",
+        "src/vcpp/Release64/pch2.obj",
+        "src/vcpp/Release64/physics.obj",
+        "src/vcpp/Release64/pvs.obj",
+        "src/vcpp/Release64/render.obj",
+        "src/vcpp/Release64/rendergl.obj",
+        "src/vcpp/Release64/renderlights.obj",
+        "src/vcpp/Release64/rendermodel.obj",
+        "src/vcpp/Release64/renderparticles.obj",
+        "src/vcpp/Release64/rendersky.obj",
+        "src/vcpp/Release64/rendertext.obj",
+        "src/vcpp/Release64/renderva.obj",
+        "src/vcpp/Release64/scoreboard.obj",
+        "src/vcpp/Release64/server.obj",
+        "src/vcpp/Release64/server1.obj",
+        "src/vcpp/Release64/serverbrowser.obj",
+        "src/vcpp/Release64/shader.obj",
+        "src/vcpp/Release64/sound.obj",
+        "src/vcpp/Release64/stain.obj",
+        "src/vcpp/Release64/stream.obj",
         "src/vcpp/Release64/tesseract.log",
+        "src/vcpp/Release64/tesseract.res",
+        "src/vcpp/Release64/texture.obj",
+        "src/vcpp/Release64/tools.obj",
+        "src/vcpp/Release64/ui.obj",
+        "src/vcpp/Release64/water.obj",
+        "src/vcpp/Release64/waypoint.obj",
+        "src/vcpp/Release64/weapon.obj",
+        "src/vcpp/Release64/world.obj",
+        "src/vcpp/Release64/worldio.obj",
+        "src/vcpp/Release64/zip.obj",
         "src/vcpp/dpiaware.manifest",
         "src/vcpp/mingw.rc",
         "src/vcpp/mingw.res",
@@ -75852,6 +76636,7 @@
         "src/vcpp/tesseract.vcxproj",
         "src/vcpp/tesseract.vcxproj.filters",
         "src/vcpp/tesseract.vcxproj.user",
+        "src/vcpp/vc140.pdb",
         "src/xcode",
         "src/xcode/macbuild.sh",
         "src/xcode/package.sh",
@@ -75865,7 +76650,6 @@
           "name": "Build Files",
           "files": [
             "src/Makefile",
-            "src/Makefile.bak",
             "src/enet/Makefile"
           ],
           "readonly": false,
@@ -76112,17 +76896,17 @@
             "src/include/SDL_config.h.cmake",
             "src/include/SDL_config.h.in",
             "src/lib",
+            "src/lib/SDL2.lib",
+            "src/lib/SDL2_image.lib",
+            "src/lib/SDL2_mixer.lib",
+            "src/lib/enet.lib",
+            "src/lib/zdll.lib",
             "src/lib64",
             "src/lib64/SDL2.lib",
             "src/lib64/SDL2_image.lib",
             "src/lib64/SDL2_mixer.lib",
             "src/lib64/enet.lib",
             "src/lib64/zdll.lib",
-            "src/lib/SDL2.lib",
-            "src/lib/SDL2_image.lib",
-            "src/lib/SDL2_mixer.lib",
-            "src/lib/enet.lib",
-            "src/lib/zdll.lib",
             "src/shared",
             "src/standalone",
             "src/standalone/engine",
@@ -76132,8 +76916,129 @@
             "src/standalone/shared",
             "src/standalone/shared/.gitkeep",
             "src/vcpp",
+            "src/vcpp/Debug64",
+            "src/vcpp/Debug64/aa.obj",
+            "src/vcpp/Debug64/ai.obj",
+            "src/vcpp/Debug64/bih.obj",
+            "src/vcpp/Debug64/blend.obj",
+            "src/vcpp/Debug64/client.obj",
+            "src/vcpp/Debug64/client1.obj",
+            "src/vcpp/Debug64/command.obj",
+            "src/vcpp/Debug64/console.obj",
+            "src/vcpp/Debug64/crypto.obj",
+            "src/vcpp/Debug64/cube.pch",
+            "src/vcpp/Debug64/dynlight.obj",
+            "src/vcpp/Debug64/engine.pch",
+            "src/vcpp/Debug64/entities.obj",
+            "src/vcpp/Debug64/game.obj",
+            "src/vcpp/Debug64/game.pch",
+            "src/vcpp/Debug64/geom.obj",
+            "src/vcpp/Debug64/glemu.obj",
+            "src/vcpp/Debug64/grass.obj",
+            "src/vcpp/Debug64/light.obj",
+            "src/vcpp/Debug64/main.obj",
+            "src/vcpp/Debug64/material.obj",
+            "src/vcpp/Debug64/menus.obj",
+            "src/vcpp/Debug64/monster.obj",
+            "src/vcpp/Debug64/movable.obj",
+            "src/vcpp/Debug64/movie.obj",
+            "src/vcpp/Debug64/normal.obj",
+            "src/vcpp/Debug64/octa.obj",
+            "src/vcpp/Debug64/octaedit.obj",
+            "src/vcpp/Debug64/octarender.obj",
+            "src/vcpp/Debug64/pch.obj",
+            "src/vcpp/Debug64/pch1.obj",
+            "src/vcpp/Debug64/pch2.obj",
+            "src/vcpp/Debug64/physics.obj",
+            "src/vcpp/Debug64/pvs.obj",
+            "src/vcpp/Debug64/render.obj",
+            "src/vcpp/Debug64/rendergl.obj",
+            "src/vcpp/Debug64/renderlights.obj",
+            "src/vcpp/Debug64/rendermodel.obj",
+            "src/vcpp/Debug64/renderparticles.obj",
+            "src/vcpp/Debug64/rendersky.obj",
+            "src/vcpp/Debug64/rendertext.obj",
+            "src/vcpp/Debug64/renderva.obj",
+            "src/vcpp/Debug64/scoreboard.obj",
+            "src/vcpp/Debug64/server.obj",
+            "src/vcpp/Debug64/server1.obj",
+            "src/vcpp/Debug64/serverbrowser.obj",
+            "src/vcpp/Debug64/shader.obj",
+            "src/vcpp/Debug64/sound.obj",
+            "src/vcpp/Debug64/stain.obj",
+            "src/vcpp/Debug64/stream.obj",
+            "src/vcpp/Debug64/tesseract.res",
+            "src/vcpp/Debug64/texture.obj",
+            "src/vcpp/Debug64/tools.obj",
+            "src/vcpp/Debug64/ui.obj",
+            "src/vcpp/Debug64/water.obj",
+            "src/vcpp/Debug64/waypoint.obj",
+            "src/vcpp/Debug64/weapon.obj",
+            "src/vcpp/Debug64/world.obj",
+            "src/vcpp/Debug64/worldio.obj",
+            "src/vcpp/Debug64/zip.obj",
             "src/vcpp/Release64",
+            "src/vcpp/Release64/aa.obj",
+            "src/vcpp/Release64/ai.obj",
+            "src/vcpp/Release64/bih.obj",
+            "src/vcpp/Release64/blend.obj",
+            "src/vcpp/Release64/client.obj",
+            "src/vcpp/Release64/client1.obj",
+            "src/vcpp/Release64/command.obj",
+            "src/vcpp/Release64/console.obj",
+            "src/vcpp/Release64/crypto.obj",
+            "src/vcpp/Release64/cube.pch",
+            "src/vcpp/Release64/dynlight.obj",
+            "src/vcpp/Release64/engine.pch",
+            "src/vcpp/Release64/entities.obj",
+            "src/vcpp/Release64/game.obj",
+            "src/vcpp/Release64/game.pch",
+            "src/vcpp/Release64/geom.obj",
+            "src/vcpp/Release64/glemu.obj",
+            "src/vcpp/Release64/grass.obj",
+            "src/vcpp/Release64/light.obj",
+            "src/vcpp/Release64/main.obj",
+            "src/vcpp/Release64/material.obj",
+            "src/vcpp/Release64/menus.obj",
+            "src/vcpp/Release64/monster.obj",
+            "src/vcpp/Release64/movable.obj",
+            "src/vcpp/Release64/movie.obj",
+            "src/vcpp/Release64/normal.obj",
+            "src/vcpp/Release64/octa.obj",
+            "src/vcpp/Release64/octaedit.obj",
+            "src/vcpp/Release64/octarender.obj",
+            "src/vcpp/Release64/pch.obj",
+            "src/vcpp/Release64/pch1.obj",
+            "src/vcpp/Release64/pch2.obj",
+            "src/vcpp/Release64/physics.obj",
+            "src/vcpp/Release64/pvs.obj",
+            "src/vcpp/Release64/render.obj",
+            "src/vcpp/Release64/rendergl.obj",
+            "src/vcpp/Release64/renderlights.obj",
+            "src/vcpp/Release64/rendermodel.obj",
+            "src/vcpp/Release64/renderparticles.obj",
+            "src/vcpp/Release64/rendersky.obj",
+            "src/vcpp/Release64/rendertext.obj",
+            "src/vcpp/Release64/renderva.obj",
+            "src/vcpp/Release64/scoreboard.obj",
+            "src/vcpp/Release64/server.obj",
+            "src/vcpp/Release64/server1.obj",
+            "src/vcpp/Release64/serverbrowser.obj",
+            "src/vcpp/Release64/shader.obj",
+            "src/vcpp/Release64/sound.obj",
+            "src/vcpp/Release64/stain.obj",
+            "src/vcpp/Release64/stream.obj",
             "src/vcpp/Release64/tesseract.log",
+            "src/vcpp/Release64/tesseract.res",
+            "src/vcpp/Release64/texture.obj",
+            "src/vcpp/Release64/tools.obj",
+            "src/vcpp/Release64/ui.obj",
+            "src/vcpp/Release64/water.obj",
+            "src/vcpp/Release64/waypoint.obj",
+            "src/vcpp/Release64/weapon.obj",
+            "src/vcpp/Release64/world.obj",
+            "src/vcpp/Release64/worldio.obj",
+            "src/vcpp/Release64/zip.obj",
             "src/vcpp/dpiaware.manifest",
             "src/vcpp/mingw.rc",
             "src/vcpp/mingw.res",
@@ -76146,6 +77051,7 @@
             "src/vcpp/tesseract.vcxproj",
             "src/vcpp/tesseract.vcxproj.filters",
             "src/vcpp/tesseract.vcxproj.user",
+            "src/vcpp/vc140.pdb",
             "src/xcode",
             "src/xcode/tesseract.icns",
             "src/xcode/tesseract.plist",

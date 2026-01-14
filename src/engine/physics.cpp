@@ -1406,7 +1406,7 @@ bool move(physent *d, vec &dir)
 {
     vec old(d->o);
     bool collided = false, slidecollide = false;
-    vec obstacle;
+    vec obstacle(0, 0, 0);
     d->o.add(dir);
     if(collide(d, dir))
     {

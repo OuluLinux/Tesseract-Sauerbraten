@@ -56,19 +56,21 @@ struct obj : vertloader<obj>
             } while(0)
 
             #define FLUSHMESH do { \
-                curmesh->numverts = verts.length(); \
-                if(verts.length()) \
+                int vlen = verts.length(); \
+                curmesh->numverts = vlen; \
+                if(vlen > 0) \
                 { \
-                    curmesh->verts = new vert[verts.length()]; \
-                    memcpy(curmesh->verts, verts.getbuf(), verts.length()*sizeof(vert)); \
-                    curmesh->tcverts = new tcvert[verts.length()]; \
-                    memcpy(curmesh->tcverts, tcverts.getbuf(), tcverts.length()*sizeof(tcvert)); \
+                    curmesh->verts = new vert[vlen]; \
+                    memcpy(curmesh->verts, verts.getbuf(), (size_t)vlen*sizeof(vert)); \
+                    curmesh->tcverts = new tcvert[vlen]; \
+                    memcpy(curmesh->tcverts, tcverts.getbuf(), (size_t)vlen*sizeof(tcvert)); \
                 } \
-                curmesh->numtris = tris.length(); \
-                if(tris.length()) \
+                int tlen = tris.length(); \
+                curmesh->numtris = tlen; \
+                if(tlen > 0) \
                 { \
-                    curmesh->tris = new tri[tris.length()]; \
-                    memcpy(curmesh->tris, tris.getbuf(), tris.length()*sizeof(tri)); \
+                    curmesh->tris = new tri[tlen]; \
+                    memcpy(curmesh->tris, tris.getbuf(), (size_t)tlen*sizeof(tri)); \
                 } \
                 if(attrib[2].empty()) \
                 { \
